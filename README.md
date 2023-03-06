@@ -45,9 +45,7 @@ The `Kadena` node requires a **dedicated IP address and static external ports**,
 namely, replace `your_endpoint_name` in the `endpoints` and `expose` sections with a unique name (**Latin lowercase characters only!**)
 
 * `--p2p-hostname=` - leave blank for first deployment.
-> If you want to change `LISTEN_PORT` or `REMOTE_PORT` - don't forget to make the changes in the corresponding paragraphs of the `EXPOSE` section as well.
-Also, for advanced users, [created a list of available variables](/VARIABLES.md) with a short description.
-  
+
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/223088770-40ea05f4-7b2e-45ff-b603-c6a6644e4e2a.gif" width=70% </p>
 
 We don't know what **IPv4** address we'll be assigned before starting the deployment, so we'll start the deployment with an empty `--p2p-hostname`. We will fill it in as soon as we get the **IPv4** address from the provider and update our deployment. <br/>
