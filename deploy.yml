@@ -1,48 +1,43 @@
 ---
 version: "2.0"
 endpoints:
- <your_endpoint_name>:
+  your_endpoint_name:  # # WARRING! SPECIFY UNIQ ENDPOINT NAME! ONLY LOWER CASE SYMBOLS!
    kind: ip
 services:
   node:
-    image: kadena/chainweb-node:2.18
+    image: ghcr.io/kadena-io/chainweb-node/ubuntu:2.18 # Use the latest version available. Avoid the "latest" tag when specifying an image version.
     args:
-      - '--p2p-hostname='
+      - '--p2p-hostname=YOUR_STATIC_IP_ADDRESS' # Node static IP address ( of leases section )
     expose:
-      - port: 80
-        as: 80
-        to:
-          - global: true
-
       - port: 443
         as: 443
         to:
           - global: true
-            ip: <your_endpoint_name>
+            ip: your_endpoint_name # Specify the endpoint name from line 4
       - port: 1789
         as: 1789
         to:
           - global: true
-            ip: <your_endpoint_name>
-    params:
-      storage:
-        data:
-          mount: /root/
+            ip: your_endpoint_name # Specify the endpoint name from line 4
+    #params:
+      #storage:
+        #data:
+         # mount: /root/
 profiles:
   compute:
     node:
       resources:
         cpu:
-          units: 5.0
+          units: 2.0
         memory:
-          size: 8Gi
+          size: 4Gi
         storage:
-          - size: 2Gi
-          - name: data
-            size: 240Gi
-            attributes:
-              persistent: true
-              class: beta3
+          #- size: 2Gi
+          #- name: data
+             size: 50Gi
+            #attributes:
+              #persistent: true
+              #class: beta2
 
   placement:
     akash:
