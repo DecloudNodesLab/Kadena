@@ -35,7 +35,7 @@ ___
 ## Node deployment
 Open [WEB interface](https://deploy.cloudmos.io/) `Cloudmos`.
 
-Make sure you have **more than 6 AKT** on your balance and **certificate present** (if not, refer to [Cloudmos instructions](https://github.com/DecloudNodesLab/Guides/blob/main/English/Cloudmos.md#account-connection-and-preparation-for-work)). Next, press the `DEPLOY` button, select the empty `Empty` template and copy the contents of [deploy.yml]([/deploy.yml](https://raw.githubusercontent.com/DecloudNodesLab/Kadena/main/deploy.yml) )).
+Make sure you have **more than 6 AKT** on your balance and **certificate present** (if not, refer to [Cloudmos instructions](https://github.com/DecloudNodesLab/Guides/blob/main/English/Cloudmos.md#account-connection-and-preparation-for-work)). Next, press the `DEPLOY` button, select the empty `Empty` template and copy the contents of [deploy.yml](https://raw.githubusercontent.com/DecloudNodesLab/Kadena/main/deploy.yml) )).
 ___
 
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/223087667-86967145-5557-49ad-ba2c-449d51f284c4.gif" width=70% </p>
