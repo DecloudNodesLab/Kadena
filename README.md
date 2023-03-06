@@ -68,7 +68,12 @@ ___
 <p align="center"><img src="https://user-images.githubusercontent.com/23629420/223095613-d7c83ce2-583f-48fa-a8d9-9f8a19996e1f.gif" width=70% </p>
 
 Пример корректных рабочих логов:<br/> 
-![image](https://user-images.githubusercontent.com/23629420/221644766-0b182d4b-813e-41ef-ab31-22cd55059583.png)<br/> 
+
+ <p align="center"><img src="https://user-images.githubusercontent.com/23629420/223098180-830373ff-a316-43cd-af6b-8afcab5e12ae.png" width=70% </p> 
+
 В браузере, перейдя по адресу `https://<public-ip>:1789/chainweb/0.0/mainnet01/cut` во можете наблюдать за работой ноды через web сокет. <br/>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/223097335-f5421224-fbc4-4b92-8563-8741054bee13.png" width=70% </p>
+
 На этом установка завершена!<br/> <br/> 
 Спасибо что воспользовались **Akash Network**!
