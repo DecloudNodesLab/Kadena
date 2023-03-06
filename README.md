@@ -48,14 +48,14 @@ namely, replace `your_endpoint_name` in the `endpoints` and `expose` sections wi
 > If you want to change `LISTEN_PORT` or `REMOTE_PORT` - don't forget to make the changes in the corresponding paragraphs of the `EXPOSE` section as well.
 Also, for advanced users, [created a list of available variables](/VARIABLES.md) with a short description.
   
-</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/223088770-40ea05f4-7b2e-45ff-b603-c6a6644e4e2a.gif" width=70% </p>
 
 We don't know what **IPv4** address we'll be assigned before starting the deployment, so we'll start the deployment with an empty `--p2p-hostname`. We will fill it in as soon as we get the **IPv4** address from the provider and update our deployment. <br/>
 It's time to ask for current offerings in the computing power market. We press `CREATE DEPLOYMENT`, confirm the transaction (**5 AKT** will be frozen) and wait for offers from providers.
   
 <br/>
   
-</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/23629420/223093591-ee9a601b-95c6-491e-99e0-1b6bfc92bc6f.gif" width=70% </p>
 
 <br/>
   
