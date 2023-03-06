@@ -5,16 +5,9 @@ endpoints:
    kind: ip
 services:
   node:
-    image: ghcr.io/kadena-io/chainweb-node/ubuntu:latest
-    env:
-      - "IP="
-    command:
-      - "bash"
-      - "-c"
+    image: kadena/chainweb-node:2.18
     args:
-      - 'apt-get update && apt-get upgrade -y;
-         apt install runit curl -y;
-         curl -s https://raw.githubusercontent.com/Dimokus88/Akash-Nodes-Lab/main/Active_testnets/Kadena/main.sh | bash'
+      - '--p2p-hostname='
     expose:
       - port: 80
         as: 80
