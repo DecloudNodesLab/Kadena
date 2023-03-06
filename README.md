@@ -19,7 +19,7 @@ ___
 
 Our news channels and technical support:
 
-| [Discord Akash Network](https://discord.akash.network/) | [Telegram Akash Network EN](https://t.me/AkashNW) |  [Twitter Akash Network](https://twitter.com/akashnet_)
+| [Discord Akash Network](https://discord.akash.network/) | [Telegram Akash Network](https://t.me/AkashNW) |  [Twitter Akash Network](https://twitter.com/akashnet_)
 |:--:|:--:|:--:|
   
   
